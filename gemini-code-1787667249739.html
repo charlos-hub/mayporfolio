@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portofolio Saya</title>
+  <!-- Menggunakan Tailwind CSS via CDN agar praktis tanpa instalasi -->
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-slate-900 text-slate-100 font-sans leading-relaxed">
+
+  <!-- Navbar -->
+  <nav class="flex justify-between items-center px-8 py-6 max-w-5xl mx-auto">
+    <span class="text-xl font-bold tracking-wider text-teal-400">DevPorto.</span>
+    <div class="space-x-6 text-sm font-medium">
+      <a href="#about" class="hover:text-teal-400 transition">Tentang</a>
+      <a href="#projects" class="hover:text-teal-400 transition">Proyek</a>
+      <a href="#contact" class="hover:text-teal-400 transition">Kontak</a>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="text-center py-20 px-4 max-w-3xl mx-auto">
+    <h1 class="text-4xl md:text-6xl font-extrabold mb-4">Halo, Saya <span class="text-teal-400">[Nama Anda]</span></h1>
+    <p class="text-slate-400 text-lg mb-8">Web Developer & Tech Enthusiast yang berfokus membangun pengalaman web interaktif dan fungsional.</p>
+    <a href="#projects" class="bg-teal-500 hover:bg-teal-600 text-slate-900 font-semibold px-6 py-3 rounded-lg shadow-lg transition">Lihat Karya Saya</a>
+  </header>
+
+  <!-- Projects Section -->
+  <section id="projects" class="py-16 px-4 max-w-5xl mx-auto">
+    <h2 class="text-2xl font-bold mb-8 text-center text-teal-400">Proyek Unggulan</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+      
+      <!-- Card Proyek 1 -->
+      <div class="bg-slate-800 p-6 rounded-xl border border-slate-700 hover:border-teal-500 transition">
+        <h3 class="text-xl font-bold mb-2">Proyek Pertama</h3>
+        <p class="text-slate-400 text-sm mb-4">Aplikasi web pencatat tugas sederhana yang dibangun dengan JavaScript murni.</p>
+        <div class="flex gap-2 text-xs font-mono text-teal-300">
+          <span class="bg-slate-900 px-2 py-1 rounded">HTML</span>
+          <span class="bg-slate-900 px-2 py-1 rounded">CSS</span>
+          <span class="bg-slate-900 px-2 py-1 rounded">JS</span>
+        </div>
+      </div>
+
+      <!-- Card Proyek 2 -->
+      <div class="bg-slate-800 p-6 rounded-xl border border-slate-700 hover:border-teal-500 transition">
+        <h3 class="text-xl font-bold mb-2">Landing Page Produk</h3>
+        <p class="text-slate-400 text-sm mb-4">Desain landing page responsif untuk produk fiktif dengan layout modern.</p>
+        <div class="flex gap-2 text-xs font-mono text-teal-300">
+          <span class="bg-slate-900 px-2 py-1 rounded">Tailwind</span>
+          <span class="bg-slate-900 px-2 py-1 rounded">UI/UX</span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Contact & Footer -->
+  <footer id="contact" class="text-center py-12 border-t border-slate-800 text-slate-500 text-sm">
+    <p class="mb-4">Tertarik berkolaborasi? Hubungi saya di <a href="mailto:emailanda@gmail.com" class="text-teal-400 underline">emailanda@gmail.com</a></p>
+    <p>© 2026 Portofolio Saya. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
